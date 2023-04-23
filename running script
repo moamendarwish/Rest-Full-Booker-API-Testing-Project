@@ -1,0 +1,5 @@
+open command line in folder directory and write this command after making sure newman is installed in your machine :
+ newman run RestfulBookerBVT.json -e Local-rb.postman_environment.json
+ integrate newman with jenkins and run automatically this job
+ open jenkins server start new job make sure nodejs module is installed type this command in new job
+  newman run fullPath/RestfulBookerBVT.json -e fullPath/Local-rb.postman_environment.json
